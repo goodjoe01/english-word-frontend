@@ -1,0 +1,40 @@
+.myapp-add-collection {
+/*   background: linear-gradient(
+    to right bottom, 
+    rgba(255,255,255,.5),
+    rgba(255,255,255,.1)
+  ); */
+  background: rgba(73, 80, 87, 0.05);
+  color: rgba(108, 117, 125, 0.7);
+}
+
+/*  .onclick-disable {
+  pointer-events: none;
+}
+
+.onclick-unable {
+  pointer-events: auto;
+}  */
+
+.span-enable {
+  display: flex;
+  /* pointer-events: auto; */
+}
+
+.span-disable {
+  display: none;
+  /* pointer-events: none; */
+}
+
+.form-disable {
+  display: none;
+}
+
+.form-enable {
+  display: block;
+}
+
+
+.myapp-add-collection:hover {
+  background: rgba(73, 80, 87,.1);
+}

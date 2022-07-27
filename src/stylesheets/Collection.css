@@ -1,0 +1,23 @@
+.myapp-container-collections {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 87%;
+}
+
+/* SCROLL BAR */
+.myapp-container-collections::-webkit-scrollbar {
+  width: .5rem;
+  height: .7rem;
+}
+.myapp-container-collections::-webkit-scrollbar-track{
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+}
+
+.myapp-container-collections::-webkit-scrollbar-thumb {
+  background: #ced4da;
+  border-radius: 1rem;
+}
+.myapp-container-collections::-webkit-scrollbar-thumb:hover{
+  cursor: pointer;
+}
